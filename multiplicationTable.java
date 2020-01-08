@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class multy {
+		public static void main(String[] args) {
+			Scanner scanner = new Scanner(System.in);
+			
+			int num = Integer.parseInt(scanner.nextLine());
+			int times = 0;
+			
+			while (times < 10) {
+				times++;
+				System.out.printf("%d X %d = %d%n", num, times,num * times);
+			}
+		}
+}
